@@ -8,12 +8,13 @@
 int main(void)
 {
    /* print_alphabet();*/
-/*print_alphabet_x10();*/
-	
+/*print_alphabet_x10(*/
+int r;
 
-
-    _putchar(1+  'l' );
-    _putchar('\n');
+    r = print_sign(98);
+    _putchar('0');
+  _putchar('\n');
+ _putchar(r); 
 return (0);
 }
 
