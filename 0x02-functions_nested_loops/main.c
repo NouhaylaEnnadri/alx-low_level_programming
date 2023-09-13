@@ -8,13 +8,16 @@
 int main(void)
 {
    /* print_alphabet();*/
-/*print_alphabet_x10(*/
-int r;
+ int r;
 
-    r = print_sign(98);
-    _putchar('0');
-  _putchar('\n');
- _putchar(r); 
+   r = _abs(-1);
+    printf("%d\n", r);
+    r = _abs(0);
+    printf("%d\n", r);
+    r = _abs(1);
+    printf("%d\n", r);
+    r = _abs(-98);
+    printf("%d\n", r); 
 return (0);
 }
 
