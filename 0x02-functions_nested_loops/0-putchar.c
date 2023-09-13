@@ -5,11 +5,11 @@
 int main(void)
 {
 
-       char letters[10] = "_putchar\n" ; 
+       char letters[10] = "_putchar\n"; 
 
-       int i ; 
+       int i; 
 
-       for (i=0 ; i<9 ; i++)
+       for (i = 0 ; i < 9 ; i++)
        {
 	       _putchar(letters[i]); 
        }
@@ -17,3 +17,4 @@ int main(void)
        return(0); 
 
 }
+
