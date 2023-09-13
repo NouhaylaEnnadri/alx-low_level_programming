@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
  * main - Entry point of the program
  *
@@ -9,15 +8,14 @@
  *
  * Return: 0 on success, non-zero on error
  */
-
 int main(void)
 {
 char letters[10] = "_putchar\n";
 int i;
 for (i = 0; i < 9; i++)
 {
-_putchar(letters[i]); 
+_putchar (letters[i]); 
 }
-return (0);
+return(0);
 }
 
